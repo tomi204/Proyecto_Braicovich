@@ -1,0 +1,25 @@
+.navl {
+  display: flex;
+  position: fixed;
+  top: 50%;
+  width: 35px;
+  height: 130px;
+  justify-content: center;
+  left: 98%;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: black;
+}
+.li-n {
+  display: list-item;
+  align-items: center;
+  list-style: none;
+  margin-top: 0px;
+  margin-right: 29px;
+}
+.li-n a {
+  display: flex;
+  margin-top: 18px;
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+}
