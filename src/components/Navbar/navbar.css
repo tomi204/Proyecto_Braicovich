@@ -43,6 +43,7 @@ nav {
 
 .visible {
   display: inherit;
+  max-width: 136px;
 }
 
 /* ----- animations--------- */
@@ -70,8 +71,8 @@ nav {
 .img-logo {
   display: flex;
   position: relative;
-  min-width: 120px;
-  min-height: 120px;
-  left: 1150px;
-  bottom: 15px;
+  min-width: 150px;
+  min-height: 150px;
+  right: 70px;
+  top: 450px;
 }
