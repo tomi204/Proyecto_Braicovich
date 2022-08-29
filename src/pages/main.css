@@ -1,5 +1,28 @@
 .main-page {
+  display: flex;
+
   min-width: 100%;
   min-height: 100%;
   background-color: black;
+  align-items: center;
+  justify-content: center;
+}
+.main-div {
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+  background-color: blue;
+  width: 50%;
+  height: 500px;
+}
+.box-div {
+  display: flex;
+  position: relative;
+  width: 90px;
+  height: 110px;
+  background-color: white;
+  margin: 15px;
+  font-size: 30px;
+  border-color: black;
 }
