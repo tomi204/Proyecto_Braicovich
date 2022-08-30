@@ -9,19 +9,17 @@
 }
 .main-div {
   display: flex;
-  align-items: center;
-
-  justify-content: space-between;
+  justify-content: center;
   background-color: blue;
   width: 50%;
   height: 500px;
 }
 .box-div {
-  display: flex;
-  position: relative;
-  width: 90px;
-  height: 110px;
-  background-color: white;
+  display: table-column-group;
+  justify-content: space-between;
+  width: 100px;
+  height: 105px;
+  background-image: none;
   margin: 15px;
   font-size: 30px;
   border-color: black;
