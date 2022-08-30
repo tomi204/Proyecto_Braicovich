@@ -30,7 +30,9 @@ const Navbar = () => {
                     <div className={burger_class} ></div>
                     <div className={burger_class} ></div>
                 </div>
-                <img src="../imagenes/logoB.jpg" className="img-logo" alt="" width={"150px"} />
+                <a href="/mainpage">
+                    <img src="../imagenes/logoB.jpg" className="img-logo" alt="" width={"150px"} />
+                </a>
             </nav>
 
             <div className={menu_class}>

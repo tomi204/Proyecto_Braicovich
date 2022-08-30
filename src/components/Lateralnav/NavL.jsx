@@ -1,5 +1,7 @@
 import React from "react";
 import "./NavL.css";
+import { SiTiktok } from "react-icons/si";
+
 import { FaFacebook, FaInstagram, FaTiktok, } from "react-icons/fa";
 function NavL() {
   return (
@@ -12,7 +14,7 @@ function NavL() {
           <FaFacebook></FaFacebook>
         </a>
         <a href="">
-          <FaTiktok />
+          <SiTiktok />
         </a>
       </li>
     </ul>
