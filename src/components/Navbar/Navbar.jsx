@@ -36,7 +36,17 @@ const Navbar = () => {
             </nav>
 
             <div className={menu_class}>
-                <h1> Obras </h1>
+                <li>
+                    <a href="">
+                        <h3>Obras</h3>
+                    </a>
+                    <a href="">
+                        <h2>Prensa</h2>
+                    </a>
+                    <a href="">
+                        <h2>Nosotros</h2>
+                    </a>
+                </li>
             </div>
         </div>
     )
