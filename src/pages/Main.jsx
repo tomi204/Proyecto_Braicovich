@@ -5,7 +5,7 @@ const MainPage = () => {
         <section className='main-page'>
             <ul>
                 <div className='main-div'>
-                    <div className='box-div'><img src="https://www.neuqueninforma.gob.ar/wp-content/uploads/2020/04/obra-privada-1.jpg" alt="" className='image-obras' /></div>
+                    <div className='box-div'><img src="./imagenes/thionis/THS-3.jpg" alt="" className='image-obras' /></div>
                     <div className='box-div'><img src="https://www.neuqueninforma.gob.ar/wp-content/uploads/2020/04/obra-privada-1.jpg" alt="" className='image-obras' /></div>
                     <div className='box-div'><img src="https://www.neuqueninforma.gob.ar/wp-content/uploads/2020/04/obra-privada-1.jpg" alt="" className='image-obras' /></div>
                     <div className='box-div'><img src="https://www.neuqueninforma.gob.ar/wp-content/uploads/2020/04/obra-privada-1.jpg" alt="" className='image-obras' /></div>

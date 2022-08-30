@@ -15,13 +15,14 @@
 .box-div {
   display: table-column-group;
   justify-content: space-between;
-  width: 105px;
+  width: 115px;
   height: 105px;
-  background-color: aliceblue;
   margin: 15px;
   font-size: 30px;
   border-color: black;
+  border-radius: 15px;
 }
+
 .second-div {
   display: flex;
   justify-content: center;
