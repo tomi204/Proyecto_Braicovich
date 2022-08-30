@@ -1,6 +1,5 @@
 .main-page {
   display: flex;
-
   min-width: 100%;
   min-height: 100%;
   background-color: black;
@@ -10,17 +9,35 @@
 .main-div {
   display: flex;
   justify-content: center;
-  background-color: blue;
-  width: 50%;
-  height: 500px;
+  height: 150px;
+  width: 100%;
 }
 .box-div {
   display: table-column-group;
   justify-content: space-between;
-  width: 100px;
+  width: 105px;
   height: 105px;
-  background-image: none;
+  background-color: aliceblue;
   margin: 15px;
   font-size: 30px;
   border-color: black;
+}
+.second-div {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 150px;
+}
+.three-div {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 150px;
+}
+.image-obras {
+  max-width: 100%;
+  min-height: 100%;
+}
+.box-div:hover {
+  transform: scale(1.3);
 }

@@ -3,12 +3,27 @@ import "./main.css"
 const MainPage = () => {
     return (
         <section className='main-page'>
-            <div className='main-div'>
-                <div className='box-div'></div>
-                <div className='box-div'></div>
-                <div className='box-div'></div>
-                <div className='box-div'></div>
-            </div>
+            <ul>
+                <div className='main-div'>
+                    <div className='box-div'><img src="https://www.neuqueninforma.gob.ar/wp-content/uploads/2020/04/obra-privada-1.jpg" alt="" className='image-obras' /></div>
+                    <div className='box-div'><img src="https://www.neuqueninforma.gob.ar/wp-content/uploads/2020/04/obra-privada-1.jpg" alt="" className='image-obras' /></div>
+                    <div className='box-div'><img src="https://www.neuqueninforma.gob.ar/wp-content/uploads/2020/04/obra-privada-1.jpg" alt="" className='image-obras' /></div>
+                    <div className='box-div'><img src="https://www.neuqueninforma.gob.ar/wp-content/uploads/2020/04/obra-privada-1.jpg" alt="" className='image-obras' /></div>
+
+                </div>
+                <div className='second-div'>
+                    <div className='box-div'><img src="https://www.neuqueninforma.gob.ar/wp-content/uploads/2020/04/obra-privada-1.jpg" alt="" className='image-obras' /></div>
+                    <div className='box-div'><img src="https://www.neuqueninforma.gob.ar/wp-content/uploads/2020/04/obra-privada-1.jpg" alt="" className='image-obras' /></div>
+                    <div className='box-div'><img src="https://www.neuqueninforma.gob.ar/wp-content/uploads/2020/04/obra-privada-1.jpg" alt="" className='image-obras' /></div>
+                    <div className='box-div'><img src="https://www.neuqueninforma.gob.ar/wp-content/uploads/2020/04/obra-privada-1.jpg" alt="" className='image-obras' /></div>
+                </div>
+                <div className='three-div'>
+                    <div className='box-div'><img src="https://www.neuqueninforma.gob.ar/wp-content/uploads/2020/04/obra-privada-1.jpg" alt="" className='image-obras' /></div>
+                    <div className='box-div'><img src="https://www.neuqueninforma.gob.ar/wp-content/uploads/2020/04/obra-privada-1.jpg" alt="" className='image-obras' /></div>
+                    <div className='box-div'><img src="https://www.neuqueninforma.gob.ar/wp-content/uploads/2020/04/obra-privada-1.jpg" alt="" className='image-obras' /></div>
+                    <div className='box-div'><img src="https://www.neuqueninforma.gob.ar/wp-content/uploads/2020/04/obra-privada-1.jpg" alt="" className='image-obras' /></div>
+                </div>
+            </ul>
         </section>
     )
 }
