@@ -33,3 +33,7 @@
 .contacto {
   color: white;
 }
+.contacto-link {
+  text-decoration: none;
+  list-style: none;
+}

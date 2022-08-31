@@ -7,7 +7,10 @@ const MainPage = () => {
                 <div className='main-div'>
                     <div className='box-div'><img src="./imagenes/Ed-1.jpg" alt="" className='image-obras' /></div>
                 </div>
-                <h2 className='contacto'>Contacto</h2></ul>
+                <a href="mailto:info@ricardobraicovich.com" className='contacto-link'>
+                    <h2 className='contacto'>Contacto</h2>
+                </a>
+            </ul>
         </section>
     )
 }

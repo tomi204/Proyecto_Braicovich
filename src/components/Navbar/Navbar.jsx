@@ -23,27 +23,11 @@ const Navbar = () => {
 
     return (
         <div style={{ width: '10%', height: '10vh' }}>
-            <nav>
-                <div className="burger-menu" onClick={updateMenu}>
-                    <div className={burger_class} >
-                    </div>
-                    <div className={burger_class} ></div>
-                    <div className={burger_class} ></div>
-                </div>
-                <a href="/mainpage">
 
-                </a>
 
-            </nav>
             <img src="../imagenes/logoB.jpg" className="img-logo" alt="" width={"150px"} />
 
-            <div className={menu_class}>
-                <li>
-                    <a href="mailto:info@ricardobraicovich.com">
-                        <h3>Contacto</h3>
-                    </a>
-                </li>
-            </div>
+
         </div>
     )
 }
