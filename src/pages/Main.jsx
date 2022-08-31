@@ -3,11 +3,11 @@ import "./main.css"
 const MainPage = () => {
     return (
         <section className='main-page'>
-
-            <div className='main-div'>
-                <div className='box-div'><img src="./imagenes/thionis/THS-3.jpg" alt="" className='image-obras' /></div>
-            </div>
-
+            <ul>
+                <div className='main-div'>
+                    <div className='box-div'><img src="./imagenes/Ed-1.jpg" alt="" className='image-obras' /></div>
+                </div>
+                <h2 className='contacto'>Contacto</h2></ul>
         </section>
     )
 }

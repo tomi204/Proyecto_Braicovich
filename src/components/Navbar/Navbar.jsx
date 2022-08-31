@@ -31,13 +31,15 @@ const Navbar = () => {
                     <div className={burger_class} ></div>
                 </div>
                 <a href="/mainpage">
-                    <img src="../imagenes/logoB.jpg" className="img-logo" alt="" width={"150px"} />
+
                 </a>
+
             </nav>
+            <img src="../imagenes/logoB.jpg" className="img-logo" alt="" width={"150px"} />
 
             <div className={menu_class}>
                 <li>
-                    <a href="">
+                    <a href="mailto:info@ricardobraicovich.com">
                         <h3>Contacto</h3>
                     </a>
                 </li>
