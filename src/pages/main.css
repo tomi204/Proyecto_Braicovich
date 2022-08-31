@@ -9,36 +9,23 @@
 .main-div {
   display: flex;
   justify-content: center;
-  height: 150px;
+  height: 50%;
   width: 100%;
 }
 .box-div {
   display: table-column-group;
   justify-content: space-between;
-  width: 205px;
-  height: 155px;
+  width: 100%;
+  height: 100%;
   margin: 0px;
   font-size: 30px;
   border-color: black;
   border-radius: 15px;
 }
-
-.second-div {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height: 150px;
-}
-.three-div {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height: 150px;
-}
 .image-obras {
   max-width: 100%;
   max-height: 100%;
 }
-.box-div:hover {
+/* .box-div:hover {
   transform: scale(1.3);
-}
+} */
