@@ -1,0 +1,19 @@
+.formulario {
+  display: list-item;
+  max-width: 75%;
+  max-height: 45%;
+  padding-left: 320px;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-row {
+  display: list-item;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  list-style: none;
+}
+.form-control {
+  width: 100%;
+}

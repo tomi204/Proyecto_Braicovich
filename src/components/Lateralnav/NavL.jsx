@@ -20,9 +20,9 @@ function NavL() {
         <a href="https://api.whatsapp.com/send?phone=5492214656523">
           <SiWhatsapp />
         </a>
-        <a href="mailto:info@ricardobraicovich.com">
+        {/* <a href="mailto:info@ricardobraicovich.com">
           <IoIosMail />
-        </a>
+        </a> */}
       </li>
     </ul>
   );

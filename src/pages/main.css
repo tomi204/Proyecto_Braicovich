@@ -37,3 +37,14 @@
   text-decoration: none;
   list-style: none;
 }
+.ul-main {
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+@media screen and (max-width: 760px) {
+  .image-obras {
+    max-width: 80%;
+    max-height: 80%;
+  }
+}
